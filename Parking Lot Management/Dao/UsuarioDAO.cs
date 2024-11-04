@@ -40,17 +40,19 @@ namespace Parking_Lot_Management.Dao
                 MySqlDataReader reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
-                    return new Usuario(
-                        (int)reader["Id"],
-                        (string)reader["Nome"],
-                        (string)reader["Email"],
-                        (string)reader["Senha"],
-                        (string)reader["Role"],
-                        (bool)reader["Ativado"]
-                    );
+                    Usuario usuario = new Usuario
+                    {
+                        Id = (int)reader["Id"],
+                        Nome = (string)reader["Nome"],
+                        Email = (string)reader["Email"],
+                        Senha = (string)reader["Senha"],
+                        Role = (string)reader["Role"],
+                        Ativado = (bool)reader["Ativado"]
+                    };
+                    return usuario;
                 }
             }
-            return null; // Retorna null se o usuário não for encontrado
+            return null; 
         }
 
         public void AtualizarUsuario(Usuario usuario)
@@ -83,17 +85,19 @@ namespace Parking_Lot_Management.Dao
                 MySqlDataReader reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
-                    return new Usuario(
-                        (int)reader["Id"],
-                        (string)reader["Nome"],
-                        (string)reader["Email"],
-                        (string)reader["Senha"],
-                        (string)reader["Role"],
-                        (bool)reader["Ativado"]
-                    );
+                    Usuario usuario = new Usuario
+                    {
+                        Id = (int)reader["Id"],
+                        Nome = (string)reader["Nome"],
+                        Email = (string)reader["Email"],
+                        Senha = (string)reader["Senha"],
+                        Role = (string)reader["Role"],
+                        Ativado = (bool)reader["Ativado"]
+                    };
+                    return usuario;
                 }
             }
-            return null; // Retorna null se o usuário não for autenticado
+            return null; 
         }
 
         public List<Usuario> GetAllUsuarios()
@@ -109,14 +113,16 @@ namespace Parking_Lot_Management.Dao
                 MySqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    Usuario usuario = new Usuario(
-                        (int)reader["Id"],
-                        (string)reader["Nome"],
-                        (string)reader["Email"],
-                        (string)reader["Senha"],
-                        (string)reader["Role"],
-                        (bool)reader["Ativado"]
-                    );
+                    Usuario usuario = new Usuario
+                    {
+                        Id = (int)reader["Id"],
+                        Nome = (string)reader["Nome"],
+                        Email = (string)reader["Email"],
+                        Senha = (string)reader["Senha"],
+                        Role = (string)reader["Role"],
+                        Ativado = (bool)reader["Ativado"]
+                    };
+
                     usuarios.Add(usuario);
                 }
             }
