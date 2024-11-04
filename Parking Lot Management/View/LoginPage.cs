@@ -1,5 +1,6 @@
 using Parking_Lot_Management.Controller;
 using Parking_Lot_Management.Model;
+using Parking_Lot_Management.View;
 
 namespace Parking_Lot_Management
 {
@@ -26,19 +27,20 @@ namespace Parking_Lot_Management
 
             if (usuario != null)
             {
-                MessageBox.Show("Login realizado com sucesso!");
+                MessageBox.Show("Login realizado com sucesso! Seja bem-vindo, " + usuario.Nome);
                 this.Hide();
 
                 if (usuario.Role == "ADMIN")
                 {
                     this.Hide();
+                    HomeAdmin homeAdmin = new HomeAdmin();
+                    homeAdmin.Show();
 
                 }
 
             }
             else
             {
-                // Falha na autenticação
                 MessageBox.Show("Email ou senha incorretos. Tente novamente.");
             }
         }
