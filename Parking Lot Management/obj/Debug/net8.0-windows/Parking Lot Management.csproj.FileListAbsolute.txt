@@ -1,0 +1,32 @@
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\Parking Lot Management.exe
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\Parking Lot Management.deps.json
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\Parking Lot Management.runtimeconfig.json
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\Parking Lot Management.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\Parking Lot Management.pdb
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking Lot Management.csproj.AssemblyReference.cache
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking_Lot_Management.LoginPage.resources
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking Lot Management.csproj.GenerateResource.cache
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking Lot Management.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking Lot Management.AssemblyInfoInputs.cache
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking Lot Management.AssemblyInfo.cs
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking Lot Management.csproj.CoreCompileInputs.cache
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking Lot Management.sourcelink.json
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking .011ED887.Up2Date
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking Lot Management.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\refint\Parking Lot Management.dll
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking Lot Management.pdb
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking Lot Management.genruntimeconfig.cache
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\ref\Parking Lot Management.dll

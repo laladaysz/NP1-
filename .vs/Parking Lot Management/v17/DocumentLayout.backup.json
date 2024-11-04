@@ -1,53 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ct67ca\\source\\repos\\Parking Lot Management\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\source\\repos\\parking lot management\\parking lot management\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\source\\repos\\parking lot management\\parking lot management\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\ct67ca\\source\\repos\\Parking Lot Management\\Parking Lot Management\\Model\\Usuario.cs",
-              "RelativeDocumentMoniker": "Parking Lot Management\\Model\\Usuario.cs",
-              "ToolTip": "C:\\Users\\ct67ca\\source\\repos\\Parking Lot Management\\Parking Lot Management\\Model\\Usuario.cs",
-              "RelativeToolTip": "Parking Lot Management\\Model\\Usuario.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T12:24:54.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\ct67ca\\source\\repos\\Parking Lot Management\\Parking Lot Management\\View\\Form1.cs",
-              "RelativeDocumentMoniker": "Parking Lot Management\\View\\Form1.cs",
-              "ToolTip": "C:\\Users\\ct67ca\\source\\repos\\Parking Lot Management\\Parking Lot Management\\View\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Parking Lot Management\\View\\Form1.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T11:52:32.466Z",
-              "EditorCaption": " [Projeto]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
