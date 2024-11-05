@@ -86,7 +86,7 @@ namespace Parking_Lot_Management.View
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e) // pesquisar btn
         {
             if (int.TryParse(idTxtBox.Text, out int usuarioId))
             {
@@ -114,11 +114,52 @@ namespace Parking_Lot_Management.View
             }
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e) //voltar btn
         {
             this.Close();
             HomeAdmin homeAdmin = new HomeAdmin();
             homeAdmin.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void admBtn_Click(object sender, EventArgs e) //tornar adm
+        {
+            if (listaUsuarios.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = listaUsuarios.SelectedItems[0];
+                int usuarioId = int.Parse(selectedItem.Text);
+                usuarioController.TornarAdmin(usuarioId);
+
+                button1_Click(sender, e);
+
+                MessageBox.Show("Usuário alterado com sucesso!");
+            }
+            else
+            {
+                MessageBox.Show("Selecione um usuário para tornar administrador.");
+            }
+        }
+
+        private void desativarBtn_Click(object sender, EventArgs e)
+        {
+            if (listaUsuarios.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = listaUsuarios.SelectedItems[0];
+                int usuarioId = int.Parse(selectedItem.Text);
+                usuarioController.Desativar(usuarioId);
+
+                button1_Click(sender, e);
+
+                MessageBox.Show("Usuário desativado com sucesso!");
+            }
+            else
+            {
+                MessageBox.Show("Selecione um usuário para desativar.");
+            }
         }
     }
 }

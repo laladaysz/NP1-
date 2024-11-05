@@ -4,6 +4,9 @@
     <Compile Update="Interfaces\Cadastro.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Interfaces\HomeDefault.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Interfaces\GenUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>

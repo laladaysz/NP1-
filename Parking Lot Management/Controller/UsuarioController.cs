@@ -63,5 +63,15 @@ namespace Parking_Lot_Management.Controller
         {
             usuarioDAO.ExcluirUsuario(id);
         }
+
+        public void TornarAdmin(int id)
+        {
+            usuarioDAO.TornarAdmin(id);
+        }
+
+        public void Desativar(int id)
+        {
+            usuarioDAO.Desativar(id);
+        }
     }
 }

@@ -33,3 +33,4 @@ C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\
 C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking_Lot_Management.View.GenUsuarios.resources
 C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking_Lot_Management.View.HomeAdmin.resources
 C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking_Lot_Management.Interfaces.Cadastro.resources
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking_Lot_Management.Interfaces.HomeDefault.resources

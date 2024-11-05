@@ -148,7 +148,30 @@ namespace Parking_Lot_Management.Dao
             }
         }
 
+        public void TornarAdmin(int id)
+        {
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "UPDATE Usuario SET Role = @Role where Id = @Id";
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@Id", id);
+                cmd.Parameters.AddWithValue("@Role", "ADMIN");
+                cmd.ExecuteNonQuery();
+            }
+        }
 
+        public void Desativar(int id)
+        {
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "UPDATE Usuario SET Ativado = false where Id = @Id";
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@Id", id);
+                cmd.ExecuteNonQuery();
+            }
+        }
     }
 }
 

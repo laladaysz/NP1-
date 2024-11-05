@@ -36,6 +36,8 @@
             button3 = new Button();
             label2 = new Label();
             button1 = new Button();
+            desativarBtn = new Button();
+            admBtn = new Button();
             SuspendLayout();
             // 
             // listaUsuarios
@@ -59,7 +61,7 @@
             // 
             // attBtn
             // 
-            attBtn.Location = new Point(233, 379);
+            attBtn.Location = new Point(67, 376);
             attBtn.Name = "attBtn";
             attBtn.Size = new Size(169, 39);
             attBtn.TabIndex = 2;
@@ -72,7 +74,7 @@
             button2.BackColor = Color.MistyRose;
             button2.FlatAppearance.BorderColor = Color.FromArgb(192, 0, 0);
             button2.ForeColor = Color.FromArgb(192, 0, 0);
-            button2.Location = new Point(446, 379);
+            button2.Location = new Point(242, 376);
             button2.Name = "button2";
             button2.Size = new Size(169, 39);
             button2.TabIndex = 3;
@@ -117,11 +119,33 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click_1;
             // 
+            // desativarBtn
+            // 
+            desativarBtn.Location = new Point(417, 376);
+            desativarBtn.Name = "desativarBtn";
+            desativarBtn.Size = new Size(169, 39);
+            desativarBtn.TabIndex = 8;
+            desativarBtn.Text = "Desativar";
+            desativarBtn.UseVisualStyleBackColor = true;
+            desativarBtn.Click += desativarBtn_Click;
+            // 
+            // admBtn
+            // 
+            admBtn.Location = new Point(588, 376);
+            admBtn.Name = "admBtn";
+            admBtn.Size = new Size(169, 39);
+            admBtn.TabIndex = 9;
+            admBtn.Text = "Tornar adm";
+            admBtn.UseVisualStyleBackColor = true;
+            admBtn.Click += admBtn_Click;
+            // 
             // GenUsuarios
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(admBtn);
+            Controls.Add(desativarBtn);
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(button3);
@@ -146,5 +170,7 @@
         private Button button3;
         private Label label2;
         private Button button1;
+        private Button desativarBtn;
+        private Button admBtn;
     }
 }
