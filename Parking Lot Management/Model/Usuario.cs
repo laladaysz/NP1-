@@ -8,8 +8,6 @@ namespace Parking_Lot_Management.Model
 {
     public class Usuario
     {
-       
-
         public int Id { get; set; }               
         public string Nome { get; set; }           
         public string Email { get; set; }          
@@ -17,11 +15,5 @@ namespace Parking_Lot_Management.Model
         public string Role { get; set; }           
         public bool Ativado { get; set; }
 
-      
-
-        public bool ValidarSenha(string senha)
-        {
-            return Senha == senha;
-        }
     }
 }
