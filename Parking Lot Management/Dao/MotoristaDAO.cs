@@ -17,13 +17,14 @@ namespace Parking_Lot_Management.Dao
             using (MySqlConnection con = new MySqlConnection(connectionString))
             {
                 con.Open();
-                string query = "INSERT INTO Motorista (Nome, Email, Telefone, Ativado) VALUES (@Nome, @Email, @Telefone, @Ativado)";
+                string query = "INSERT INTO Motorista (Nome, Email, Telefone, Ativo) VALUES (@Nome, @Email, @Telefone, @Ativo)";
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@Nome", motorista.Nome);
                 cmd.Parameters.AddWithValue("@Email", motorista.Email);
                 cmd.Parameters.AddWithValue("@Telefone", motorista.Telefone);
-                cmd.Parameters.AddWithValue("@Ativado", motorista.Ativo);
+                cmd.Parameters.AddWithValue("@Ativo", motorista.Ativo);
                 cmd.ExecuteNonQuery();
+                con.Close();
             }
         }
 
@@ -47,6 +48,7 @@ namespace Parking_Lot_Management.Dao
                         Telefone = (string)reader["Telefone"],
                         Ativo = (bool)reader["Ativo"]
                     };
+                    conn.Close();
                     return motorista;
                 }
 
@@ -77,6 +79,7 @@ namespace Parking_Lot_Management.Dao
 
                         motoristas.Add(motorista);
                     }
+                    conn.Close();
                 }
                 return motoristas;
             }
@@ -91,9 +94,28 @@ namespace Parking_Lot_Management.Dao
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@Id", id);
                 cmd.ExecuteNonQuery();
+                conn.Close();
             }
         }
 
+        public void AlterarMotorista(int id, string nome, string email, string telefone, bool ativo)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "UPDATE Motorista SET Nome = @Nome, Email = @Email, Telefone = @Telefone, Ativo = @Ativo";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+
+                cmd.Parameters.AddWithValue("@Id", id);
+                cmd.Parameters.AddWithValue("@Nome", nome);
+                cmd.Parameters.AddWithValue("@Email", email);
+                cmd.Parameters.AddWithValue("@Telefone", telefone);
+                cmd.Parameters.AddWithValue("@Ativo", ativo);
+
+                cmd.ExecuteNonQuery();
+                conn.Close();
+            }
+        }
 
 
 
