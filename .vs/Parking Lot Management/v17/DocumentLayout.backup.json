@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\interfaces\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\interfaces\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\dao\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\dao\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,11 +50,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cadastro.cs",
+              "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\Cadastro.cs",
+              "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\Cadastro.cs*",
+              "RelativeToolTip": "Parking Lot Management\\Interfaces\\Cadastro.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:10:37.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Cadastro.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\Cadastro.cs",
+              "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\Cadastro.cs [Projeto]*",
+              "RelativeToolTip": "Parking Lot Management\\Interfaces\\Cadastro.cs [Projeto]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:03:22.299Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Model\\Usuario.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Model\\Usuario.cs",
@@ -59,20 +92,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UsuarioDAO.cs",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Dao\\UsuarioDAO.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Dao\\UsuarioDAO.cs",
               "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Dao\\UsuarioDAO.cs",
               "RelativeToolTip": "Parking Lot Management\\Dao\\UsuarioDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T13:48:24.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GenUsuarios.cs",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\GenUsuarios.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\GenUsuarios.cs",
@@ -85,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "GenUsuarios.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\GenUsuarios.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\GenUsuarios.cs",
@@ -97,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "HomeAdmin.cs",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\HomeAdmin.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\HomeAdmin.cs",
@@ -110,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "HomeAdmin.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\HomeAdmin.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\HomeAdmin.cs",
@@ -122,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LoginPage.cs",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\LoginPage.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\LoginPage.cs",
@@ -135,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LoginPage.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\LoginPage.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\LoginPage.cs",

@@ -1,4 +1,5 @@
 using Parking_Lot_Management.Controller;
+using Parking_Lot_Management.Interfaces;
 using Parking_Lot_Management.Model;
 using Parking_Lot_Management.View;
 
@@ -48,6 +49,8 @@ namespace Parking_Lot_Management
         private void cadBtn_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
+            Cadastro cadastro = new Cadastro();
+            cadastro.Show();
 
         }
     }
