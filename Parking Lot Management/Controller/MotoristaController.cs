@@ -12,6 +12,11 @@ namespace Parking_Lot_Management.Controller
     {
         private MotoristaDao motoristaDao;
 
+        public MotoristaController() 
+        {
+            motoristaDao = new MotoristaDao();
+        }
+
         public void CadastrarMotorista(string nome, string email, string telefone, bool ativo)
         {
             Motorista motorista = new Motorista

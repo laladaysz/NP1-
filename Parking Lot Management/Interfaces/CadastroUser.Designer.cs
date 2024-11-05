@@ -1,6 +1,6 @@
 ﻿namespace Parking_Lot_Management.Interfaces
 {
-    partial class Cadastro
+    partial class CadastroUser
     {
         /// <summary>
         /// Required designer variable.
@@ -105,7 +105,7 @@
             cadBtn.UseVisualStyleBackColor = true;
             cadBtn.Click += cadBtn_Click;
             // 
-            // Cadastro
+            // CadastroUser
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -118,7 +118,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Cadastro";
+            Name = "CadastroUser";
             Text = "Cadastre-se";
             ResumeLayout(false);
             PerformLayout();

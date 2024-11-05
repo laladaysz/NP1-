@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Parking_Lot_Management.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,30 @@ namespace Parking_Lot_Management.View
             this.Close();
             View.GenUsuarios genUsuarios = new View.GenUsuarios();
             genUsuarios.Show();
+        }
+
+        private void HomeAdmin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            CadastroUser cadastroUser = new CadastroUser();
+            cadastroUser.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            CadastroMotoristas cadastroMotoristas = new CadastroMotoristas();
+            cadastroMotoristas.Show();
         }
     }
 }

@@ -49,7 +49,7 @@ namespace Parking_Lot_Management
         private void cadBtn_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
-            Cadastro cadastro = new Cadastro();
+            CadastroUser cadastro = new CadastroUser();
             cadastro.Show();
 
         }

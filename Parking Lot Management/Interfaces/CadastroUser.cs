@@ -11,10 +11,10 @@ using System.Windows.Forms;
 
 namespace Parking_Lot_Management.Interfaces
 {
-    public partial class Cadastro : Form
+    public partial class CadastroUser : Form
     {
         private UsuarioController usuarioController;
-        public Cadastro()
+        public CadastroUser()
         {
             InitializeComponent();
             usuarioController = new UsuarioController();
