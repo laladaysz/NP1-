@@ -16,5 +16,12 @@ namespace Parking_Lot_Management.View
         {
             InitializeComponent();
         }
+
+        private void GenUsersBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            View.GenUsuarios genUsuarios = new View.GenUsuarios();
+            genUsuarios.Show();
+        }
     }
 }

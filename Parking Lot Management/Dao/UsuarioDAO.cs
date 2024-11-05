@@ -17,7 +17,7 @@ namespace Parking_Lot_Management.Dao
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "INSERT INTO Usuarios (Nome, Email, Senha, Role, Ativado) VALUES (@Nome, @Email, @Senha, @Role, @Ativado)";
+                string query = "INSERT INTO Usuario (Nome, Email, Senha, Role, Ativado) VALUES (@Nome, @Email, @Senha, @Role, @Ativado)";
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@Nome", usuario.Nome);
                 cmd.Parameters.AddWithValue("@Email", usuario.Email);
@@ -33,7 +33,7 @@ namespace Parking_Lot_Management.Dao
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "SELECT * FROM Usuarios WHERE Id = @Id";
+                string query = "SELECT * FROM Usuario WHERE Id = @Id";
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@Id", id);
 
@@ -60,7 +60,7 @@ namespace Parking_Lot_Management.Dao
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "UPDATE Usuarios SET Nome = @Nome, Email = @Email, Senha = @Senha, Role = @Role, Ativado = @Ativado WHERE Id = @Id";
+                string query = "UPDATE Usuario SET Nome = @Nome, Email = @Email, Senha = @Senha, Role = @Role, Ativado = @Ativado WHERE Id = @Id";
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@Nome", usuario.Nome);
                 cmd.Parameters.AddWithValue("@Email", usuario.Email);
@@ -77,7 +77,7 @@ namespace Parking_Lot_Management.Dao
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "SELECT * FROM Usuarios WHERE Email = @Email AND Senha = @Senha";
+                string query = "SELECT * FROM Usuario WHERE Email = @Email AND Senha = @Senha";
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@Email", email);
                 cmd.Parameters.AddWithValue("@Senha", senha);
@@ -85,6 +85,13 @@ namespace Parking_Lot_Management.Dao
                 MySqlDataReader reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
+
+                    bool ativado = (bool)reader["Ativado"];
+                    if (!ativado)
+                    {
+                        throw new Exception("Conta desativada."); 
+                    }
+
                     Usuario usuario = new Usuario
                     {
                         Id = (int)reader["Id"],
@@ -107,7 +114,7 @@ namespace Parking_Lot_Management.Dao
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "SELECT * FROM Usuarios";
+                string query = "SELECT * FROM Usuario";
                 MySqlCommand cmd = new MySqlCommand(query, conn);
 
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -134,7 +141,7 @@ namespace Parking_Lot_Management.Dao
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "DELETE FROM Usuarios WHERE Id = @Id";
+                string query = "DELETE FROM Usuario WHERE Id = @Id";
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@Id", id);
                 cmd.ExecuteNonQuery();

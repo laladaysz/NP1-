@@ -70,6 +70,7 @@
             GenUsersBtn.TabIndex = 3;
             GenUsersBtn.Text = "Entrar";
             GenUsersBtn.UseVisualStyleBackColor = true;
+            GenUsersBtn.Click += GenUsersBtn_Click;
             // 
             // HomeAdmin
             // 

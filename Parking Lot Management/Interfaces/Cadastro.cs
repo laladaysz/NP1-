@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Parking_Lot_Management.View
+namespace Parking_Lot_Management.Interfaces
 {
-    public partial class GenUsuarios : Form
+    public partial class Cadastro : Form
     {
-        public GenUsuarios()
+        public Cadastro()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
