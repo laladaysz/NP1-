@@ -100,6 +100,7 @@
             delBtn.TabIndex = 15;
             delBtn.Text = "Deletar";
             delBtn.UseVisualStyleBackColor = false;
+            delBtn.Click += delBtn_Click;
             // 
             // attBtn
             // 
@@ -109,7 +110,7 @@
             attBtn.TabIndex = 14;
             attBtn.Text = "Atualizar";
             attBtn.UseVisualStyleBackColor = true;
-            attBtn.Click += this.attBtn_Click;
+            attBtn.Click += attBtn_Click;
             // 
             // GenMotorista
             // 

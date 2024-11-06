@@ -48,5 +48,12 @@ namespace Parking_Lot_Management.View
             CadastroMotoristas cadastroMotoristas = new CadastroMotoristas();
             cadastroMotoristas.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            GenMotorista genMotorista = new GenMotorista();
+            genMotorista.Show();
+        }
     }
 }
