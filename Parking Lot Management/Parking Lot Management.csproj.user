@@ -7,6 +7,9 @@
     <Compile Update="Interfaces\CadastroMotoristas.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Interfaces\CadastroVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Interfaces\GenMotorista.cs">
       <SubType>Form</SubType>
     </Compile>
