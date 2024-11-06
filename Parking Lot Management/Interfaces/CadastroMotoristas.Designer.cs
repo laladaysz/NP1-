@@ -36,6 +36,7 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // cadBtn
@@ -105,11 +106,22 @@
             label1.TabIndex = 8;
             label1.Text = "Cadastre um novo motorista:\r\n\r\n";
             // 
+            // button1
+            // 
+            button1.Location = new Point(224, 40);
+            button1.Name = "button1";
+            button1.Size = new Size(43, 38);
+            button1.TabIndex = 16;
+            button1.Text = "<";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // CadastroMotoristas
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(cadBtn);
             Controls.Add(telTxt);
             Controls.Add(emailTxt);
@@ -134,5 +146,6 @@
         private Label label3;
         private Label label2;
         private Label label1;
+        private Button button1;
     }
 }

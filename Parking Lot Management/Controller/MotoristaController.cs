@@ -39,16 +39,14 @@ namespace Parking_Lot_Management.Controller
             return motoristaDao.GetAllMotorista();
         }
 
-        public void AlterarMotorista(int id, string nome, string email, string telefone, bool ativo)
-        {
-            motoristaDao.AlterarMotorista(id, nome, email, telefone, ativo);
-        }
-
         public void ExcluirMotorista(int id)
         {
             motoristaDao.ExcluirMotorista(id);
         }
 
-
+        public void DesativarMotorista(int id)
+        {
+            motoristaDao.DesativarMotorista(id);
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Parking_Lot_Management.Controller;
 using Parking_Lot_Management.Model;
+using Parking_Lot_Management.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -69,6 +70,59 @@ namespace Parking_Lot_Management.Interfaces
             {
                 MessageBox.Show("Selecione um motorista para excluir.");
             }
+        }
+
+        private void desativarBtn_Click(object sender, EventArgs e)
+        {
+            if (listaMotoristas.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = listaMotoristas.SelectedItems[0];
+                int usuarioId = int.Parse(selectedItem.Text);
+                motoristaController.DesativarMotorista(usuarioId);
+
+                attBtn_Click(sender, e);
+
+                MessageBox.Show("Motorista desativado com sucesso!");
+            }
+            else
+            {
+                MessageBox.Show("Selecione um motorista para desativar.");
+            }
+        }
+
+        private void buscarBtn_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(idTxtBox.Text, out int motoristaId))
+            {
+                Motorista motorista = motoristaController.BuscarMotoristaPorId(motoristaId);
+                listaMotoristas.Items.Clear();
+
+                if (motorista != null)
+                {
+                    ListViewItem item = new ListViewItem(motorista.Id.ToString());
+                    item.SubItems.Add(motorista.Nome);
+                    item.SubItems.Add(motorista.Email);
+                    item.SubItems.Add(motorista.Telefone);
+                    item.SubItems.Add(motorista.Ativo ? "Sim" : "Não");
+
+                    listaMotoristas.Items.Add(item);
+                }
+                else
+                {
+                    MessageBox.Show("Motorista não encontrado.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("ID inválido. Por favor, insira um número válido.");
+            }
+        }
+
+        private void backBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            HomeAdmin homeAdmin = new HomeAdmin();
+            homeAdmin.Show();
         }
     }
 }

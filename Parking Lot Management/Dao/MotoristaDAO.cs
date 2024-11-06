@@ -98,22 +98,18 @@ namespace Parking_Lot_Management.Dao
             }
         }
 
-        public void AlterarMotorista(int id, string nome, string email, string telefone, bool ativo)
-        {
-            using (MySqlConnection conn = new MySqlConnection(connectionString))
-            {
-                conn.Open();
-                string query = "UPDATE Motorista SET Nome = @Nome, Email = @Email, Telefone = @Telefone, Ativo = @Ativo";
-                MySqlCommand cmd = new MySqlCommand(query, conn);
 
+        public void DesativarMotorista(int id) 
+        { 
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "UPDATE Motorista SET Ativo = 0 WHERE Id = @Id";
+                MySqlCommand cmd = new MySqlCommand(query, connection);
                 cmd.Parameters.AddWithValue("@Id", id);
-                cmd.Parameters.AddWithValue("@Nome", nome);
-                cmd.Parameters.AddWithValue("@Email", email);
-                cmd.Parameters.AddWithValue("@Telefone", telefone);
-                cmd.Parameters.AddWithValue("@Ativo", ativo);
 
                 cmd.ExecuteNonQuery();
-                conn.Close();
+                connection.Close();
             }
         }
 

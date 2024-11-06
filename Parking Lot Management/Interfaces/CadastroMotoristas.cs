@@ -1,4 +1,5 @@
 ﻿using Parking_Lot_Management.Controller;
+using Parking_Lot_Management.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -31,12 +32,22 @@ namespace Parking_Lot_Management.Interfaces
             try
             {
                 motoristaController.CadastrarMotorista(nome, email, telefone, ativo);
+                nomeTxt.Text = "";
+                emailTxt.Text = "";
+                telTxt.Text = "";
                 MessageBox.Show("Motorista cadastrado com sucesso!");
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Erro ao cadastrar motorista: {ex.Message}");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            HomeAdmin homeAdmin = new HomeAdmin();
+            homeAdmin.Show();
         }
     }
 }

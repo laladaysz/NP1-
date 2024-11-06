@@ -36,6 +36,7 @@
             listaMotoristas = new ListView();
             delBtn = new Button();
             attBtn = new Button();
+            desativarBtn = new Button();
             SuspendLayout();
             // 
             // backBtn
@@ -46,6 +47,7 @@
             backBtn.TabIndex = 13;
             backBtn.Text = "<";
             backBtn.UseVisualStyleBackColor = true;
+            backBtn.Click += backBtn_Click;
             // 
             // label2
             // 
@@ -64,6 +66,7 @@
             buscarBtn.TabIndex = 11;
             buscarBtn.Text = "Buscar";
             buscarBtn.UseVisualStyleBackColor = true;
+            buscarBtn.Click += buscarBtn_Click;
             // 
             // idTxtBox
             // 
@@ -94,7 +97,7 @@
             delBtn.BackColor = Color.MistyRose;
             delBtn.FlatAppearance.BorderColor = Color.FromArgb(192, 0, 0);
             delBtn.ForeColor = Color.FromArgb(192, 0, 0);
-            delBtn.Location = new Point(454, 387);
+            delBtn.Location = new Point(334, 388);
             delBtn.Name = "delBtn";
             delBtn.Size = new Size(169, 39);
             delBtn.TabIndex = 15;
@@ -104,7 +107,7 @@
             // 
             // attBtn
             // 
-            attBtn.Location = new Point(233, 387);
+            attBtn.Location = new Point(133, 388);
             attBtn.Name = "attBtn";
             attBtn.Size = new Size(169, 39);
             attBtn.TabIndex = 14;
@@ -112,11 +115,22 @@
             attBtn.UseVisualStyleBackColor = true;
             attBtn.Click += attBtn_Click;
             // 
+            // desativarBtn
+            // 
+            desativarBtn.Location = new Point(532, 388);
+            desativarBtn.Name = "desativarBtn";
+            desativarBtn.Size = new Size(169, 39);
+            desativarBtn.TabIndex = 16;
+            desativarBtn.Text = "Desativar";
+            desativarBtn.UseVisualStyleBackColor = true;
+            desativarBtn.Click += desativarBtn_Click;
+            // 
             // GenMotorista
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(desativarBtn);
             Controls.Add(delBtn);
             Controls.Add(attBtn);
             Controls.Add(backBtn);
@@ -141,5 +155,6 @@
         private ListView listaMotoristas;
         private Button delBtn;
         private Button attBtn;
+        private Button desativarBtn;
     }
 }
