@@ -35,13 +35,6 @@ namespace Parking_Lot_Management.View
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            CadastroUser cadastroUser = new CadastroUser();
-            cadastroUser.Show();
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -59,9 +52,16 @@ namespace Parking_Lot_Management.View
         private void button9_Click(object sender, EventArgs e)
         {
             this.Close();
-            CadastroVeiculo cadastroveiculos = new CadastroVeiculo();   
+            CadastroVeiculo cadastroveiculos = new CadastroVeiculo();
             cadastroveiculos.Show();
 
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            GenVeiculos genVeiculos = new GenVeiculos();
+            genVeiculos.Show();
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Parking_Lot_Management.Controller;
+using Parking_Lot_Management.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -51,6 +52,12 @@ namespace Parking_Lot_Management.Interfaces
         private void label2_Click(object sender, EventArgs e)
         { }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            HomeAdmin homeAdmin = new HomeAdmin();
+            homeAdmin.Show();
+        }
     }
 
 

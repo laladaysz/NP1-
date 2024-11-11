@@ -34,7 +34,6 @@
             GenUsersBtn = new Button();
             label4 = new Label();
             button1 = new Button();
-            button2 = new Button();
             button3 = new Button();
             label7 = new Label();
             button4 = new Button();
@@ -48,7 +47,6 @@
             label14 = new Label();
             label15 = new Label();
             label16 = new Label();
-            label17 = new Label();
             label5 = new Label();
             button8 = new Button();
             button9 = new Button();
@@ -113,21 +111,10 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // button2
-            // 
-            button2.Font = new Font("Segoe UI", 7F);
-            button2.Location = new Point(600, 156);
-            button2.Name = "button2";
-            button2.Size = new Size(95, 29);
-            button2.TabIndex = 7;
-            button2.Text = "Entrar";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
             // button3
             // 
             button3.Font = new Font("Segoe UI", 7F);
-            button3.Location = new Point(612, 206);
+            button3.Location = new Point(607, 152);
             button3.Name = "button3";
             button3.Size = new Size(95, 29);
             button3.TabIndex = 9;
@@ -176,7 +163,7 @@
             // button6
             // 
             button6.Font = new Font("Segoe UI", 7F);
-            button6.Location = new Point(574, 301);
+            button6.Location = new Point(569, 247);
             button6.Name = "button6";
             button6.Size = new Size(95, 29);
             button6.TabIndex = 15;
@@ -186,7 +173,7 @@
             // button7
             // 
             button7.Font = new Font("Segoe UI", 7F);
-            button7.Location = new Point(663, 341);
+            button7.Location = new Point(658, 287);
             button7.Name = "button7";
             button7.Size = new Size(95, 29);
             button7.TabIndex = 17;
@@ -223,7 +210,7 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(505, 345);
+            label14.Location = new Point(500, 291);
             label14.Name = "label14";
             label14.Size = new Size(152, 25);
             label14.TabIndex = 23;
@@ -232,7 +219,7 @@
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(505, 301);
+            label15.Location = new Point(500, 247);
             label15.Name = "label15";
             label15.Size = new Size(63, 25);
             label15.TabIndex = 22;
@@ -241,21 +228,11 @@
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(505, 210);
+            label16.Location = new Point(500, 156);
             label16.Name = "label16";
             label16.Size = new Size(101, 25);
             label16.TabIndex = 21;
             label16.Text = "Motoristas:";
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Location = new Point(510, 160);
-            label17.Name = "label17";
-            label17.Size = new Size(84, 25);
-            label17.TabIndex = 20;
-            label17.Text = "Usuários:";
-            label17.Click += label17_Click;
             // 
             // label5
             // 
@@ -275,11 +252,12 @@
             button8.TabIndex = 26;
             button8.Text = "Entrar";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
             button9.Font = new Font("Segoe UI", 7F);
-            button9.Location = new Point(591, 258);
+            button9.Location = new Point(586, 204);
             button9.Name = "button9";
             button9.Size = new Size(95, 29);
             button9.TabIndex = 28;
@@ -290,7 +268,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(505, 258);
+            label6.Location = new Point(500, 204);
             label6.Name = "label6";
             label6.Size = new Size(80, 25);
             label6.TabIndex = 27;
@@ -309,7 +287,6 @@
             Controls.Add(label14);
             Controls.Add(label15);
             Controls.Add(label16);
-            Controls.Add(label17);
             Controls.Add(label12);
             Controls.Add(label11);
             Controls.Add(button7);
@@ -319,7 +296,6 @@
             Controls.Add(button4);
             Controls.Add(label7);
             Controls.Add(button3);
-            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label4);
             Controls.Add(GenUsersBtn);
@@ -341,7 +317,6 @@
         private Button GenUsersBtn;
         private Label label4;
         private Button button1;
-        private Button button2;
         private Button button3;
         private Label label7;
         private Button button4;
@@ -355,7 +330,6 @@
         private Label label14;
         private Label label15;
         private Label label16;
-        private Label label17;
         private Label label5;
         private Button button8;
         private Button button9;

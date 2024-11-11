@@ -91,6 +91,7 @@
             listaMotoristas.Size = new Size(690, 279);
             listaMotoristas.TabIndex = 8;
             listaMotoristas.UseCompatibleStateImageBehavior = false;
+            listaMotoristas.SelectedIndexChanged += listaMotoristas_SelectedIndexChanged;
             // 
             // delBtn
             // 

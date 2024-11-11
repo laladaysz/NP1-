@@ -38,6 +38,7 @@
             label1 = new Label();
             label5 = new Label();
             motoristaBox = new ComboBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // cadBtn
@@ -48,7 +49,7 @@
             cadBtn.TabIndex = 15;
             cadBtn.Text = "Cadastre-se";
             cadBtn.UseVisualStyleBackColor = true;
-            cadBtn.Click += this.cadBtn_Click;
+            cadBtn.Click += cadBtn_Click;
             // 
             // corTxt
             // 
@@ -97,7 +98,7 @@
             label2.Size = new Size(52, 25);
             label2.TabIndex = 9;
             label2.Text = "Placa";
-            label2.Click += this.label2_Click;
+            label2.Click += label2_Click;
             // 
             // label1
             // 
@@ -124,12 +125,24 @@
             motoristaBox.Name = "motoristaBox";
             motoristaBox.Size = new Size(230, 33);
             motoristaBox.TabIndex = 17;
+            motoristaBox.Text = "Selecione um motorista";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(216, 13);
+            button1.Name = "button1";
+            button1.Size = new Size(43, 38);
+            button1.TabIndex = 18;
+            button1.Text = "<";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // CadastroVeiculo
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(motoristaBox);
             Controls.Add(label5);
             Controls.Add(cadBtn);
@@ -158,5 +171,6 @@
         private Label label1;
         private Label label5;
         private ComboBox motoristaBox;
+        private Button button1;
     }
 }
