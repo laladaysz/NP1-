@@ -89,12 +89,12 @@ namespace Parking_Lot_Management.Dao
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
+                conn.Open();
                 string deleteVeiculosQuery = "DELETE FROM Veiculo WHERE MotoristaId = @IdMotorista";
                 MySqlCommand deleteVeiculosCmd = new MySqlCommand(deleteVeiculosQuery, conn);
                 deleteVeiculosCmd.Parameters.AddWithValue("@IdMotorista", id);
                 deleteVeiculosCmd.ExecuteNonQuery();
 
-                conn.Open();
                 string query = "DELETE FROM Motorista WHERE Id = @Id";
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@Id", id);
