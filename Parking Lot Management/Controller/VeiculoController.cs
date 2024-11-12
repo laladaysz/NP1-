@@ -11,10 +11,12 @@ namespace Parking_Lot_Management.Controller
     public class VeiculoController
     {
         private VeiculoDAO veiculoDAO;
+        private MotoristaController motoristaController;
 
         public VeiculoController() 
         {
-            veiculoDAO = new VeiculoDAO(); 
+            veiculoDAO = new VeiculoDAO();
+            motoristaController = new MotoristaController();
         }
 
         public List<Veiculo> GetAllVeiculo()
@@ -47,6 +49,20 @@ namespace Parking_Lot_Management.Controller
         public List<Veiculo> GetVeiculosByMotorista(int idMotorista)
         {
             return veiculoDAO.GetVeiculoByMotorista(idMotorista);
+        }
+
+        public List<(Veiculo veiculo, string nomeMotorista)> GetVeiculosComMotorista()
+        {
+            var veiculos = veiculoDAO.GetAllVeiculos();
+            var resultado = new List<(Veiculo veiculo, string nomeMotorista)>();
+
+            foreach (var veiculo in veiculos)
+            {
+                string nomeMotorista = motoristaController.GetNomeMotoristaById(veiculo.MotoristaId) ?? "Desconhecido";
+                resultado.Add((veiculo, nomeMotorista));
+            }
+
+            return resultado;
         }
     }
 }

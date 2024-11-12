@@ -29,96 +29,96 @@
         private void InitializeComponent()
         {
             desativarBtn = new Button();
-            delBtn = new Button();
-            atBtn = new Button();
-            backBtn = new Button();
+            button1 = new Button();
             label2 = new Label();
-            buscarBtn = new Button();
+            button3 = new Button();
             idTxtBox = new TextBox();
+            button2 = new Button();
+            attBtn = new Button();
             title = new Label();
             listaVeiculos = new ListView();
             SuspendLayout();
             // 
             // desativarBtn
             // 
-            desativarBtn.Location = new Point(537, 378);
+            desativarBtn.Location = new Point(520, 373);
             desativarBtn.Name = "desativarBtn";
             desativarBtn.Size = new Size(169, 39);
-            desativarBtn.TabIndex = 25;
+            desativarBtn.TabIndex = 18;
             desativarBtn.Text = "Alterar";
             desativarBtn.UseVisualStyleBackColor = true;
             // 
-            // delBtn
+            // button1
             // 
-            delBtn.BackColor = Color.MistyRose;
-            delBtn.FlatAppearance.BorderColor = Color.FromArgb(192, 0, 0);
-            delBtn.ForeColor = Color.FromArgb(192, 0, 0);
-            delBtn.Location = new Point(339, 378);
-            delBtn.Name = "delBtn";
-            delBtn.Size = new Size(169, 39);
-            delBtn.TabIndex = 24;
-            delBtn.Text = "Deletar";
-            delBtn.UseVisualStyleBackColor = false;
-            // 
-            // atBtn
-            // 
-            atBtn.Location = new Point(138, 378);
-            atBtn.Name = "atBtn";
-            atBtn.Size = new Size(169, 39);
-            atBtn.TabIndex = 23;
-            atBtn.Text = "Atualizar";
-            atBtn.UseVisualStyleBackColor = true;
-            atBtn.Click += this.attBtn_Click;
-            // 
-            // backBtn
-            // 
-            backBtn.Location = new Point(31, 35);
-            backBtn.Name = "backBtn";
-            backBtn.Size = new Size(43, 38);
-            backBtn.TabIndex = 22;
-            backBtn.Text = "<";
-            backBtn.UseVisualStyleBackColor = true;
+            button1.Location = new Point(31, 34);
+            button1.Name = "button1";
+            button1.Size = new Size(43, 38);
+            button1.TabIndex = 17;
+            button1.Text = "<";
+            button1.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(507, 35);
+            label2.Location = new Point(507, 34);
             label2.Name = "label2";
             label2.Size = new Size(121, 25);
-            label2.TabIndex = 21;
+            label2.TabIndex = 16;
             label2.Text = "Buscar por Id:";
             // 
-            // buscarBtn
+            // button3
             // 
-            buscarBtn.Location = new Point(678, 33);
-            buscarBtn.Name = "buscarBtn";
-            buscarBtn.Size = new Size(77, 34);
-            buscarBtn.TabIndex = 20;
-            buscarBtn.Text = "Buscar";
-            buscarBtn.UseVisualStyleBackColor = true;
+            button3.Location = new Point(678, 32);
+            button3.Name = "button3";
+            button3.Size = new Size(77, 34);
+            button3.TabIndex = 15;
+            button3.Text = "Buscar";
+            button3.UseVisualStyleBackColor = true;
             // 
             // idTxtBox
             // 
-            idTxtBox.Location = new Point(634, 35);
+            idTxtBox.Location = new Point(634, 34);
             idTxtBox.Name = "idTxtBox";
             idTxtBox.Size = new Size(38, 31);
-            idTxtBox.TabIndex = 19;
+            idTxtBox.TabIndex = 14;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.MistyRose;
+            button2.FlatAppearance.BorderColor = Color.FromArgb(192, 0, 0);
+            button2.ForeColor = Color.FromArgb(192, 0, 0);
+            button2.Location = new Point(345, 373);
+            button2.Name = "button2";
+            button2.Size = new Size(169, 39);
+            button2.TabIndex = 13;
+            button2.Text = "Deletar";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // attBtn
+            // 
+            attBtn.Location = new Point(170, 373);
+            attBtn.Name = "attBtn";
+            attBtn.Size = new Size(169, 39);
+            attBtn.TabIndex = 12;
+            attBtn.Text = "Atualizar";
+            attBtn.UseVisualStyleBackColor = true;
+            attBtn.Click += attBtn_Click;
             // 
             // title
             // 
             title.AutoSize = true;
-            title.Location = new Point(80, 41);
+            title.Location = new Point(80, 40);
             title.Name = "title";
-            title.Size = new Size(177, 25);
-            title.TabIndex = 18;
-            title.Text = "Veículos cadastrados";
+            title.Size = new Size(181, 25);
+            title.TabIndex = 11;
+            title.Text = "Usuários cadastrados";
             // 
             // listaVeiculos
             // 
-            listaVeiculos.Location = new Point(80, 79);
+            listaVeiculos.Location = new Point(80, 78);
             listaVeiculos.Name = "listaVeiculos";
             listaVeiculos.Size = new Size(690, 279);
-            listaVeiculos.TabIndex = 17;
+            listaVeiculos.TabIndex = 10;
             listaVeiculos.UseCompatibleStateImageBehavior = false;
             // 
             // GenVeiculos
@@ -127,30 +127,28 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(desativarBtn);
-            Controls.Add(delBtn);
-            Controls.Add(atBtn);
-            Controls.Add(backBtn);
+            Controls.Add(button1);
             Controls.Add(label2);
-            Controls.Add(buscarBtn);
+            Controls.Add(button3);
             Controls.Add(idTxtBox);
+            Controls.Add(button2);
+            Controls.Add(attBtn);
             Controls.Add(title);
             Controls.Add(listaVeiculos);
             Name = "GenVeiculos";
-            Text = "Gerenciamento de Veiculos";
-            Load += this.GenVeiculos_Load;
+            Text = "Gerenciamento de veículos";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
         private Button desativarBtn;
-        private Button delBtn;
-        private Button atBtn;
-        private Button backBtn;
+        private Button button1;
         private Label label2;
-        private Button buscarBtn;
+        private Button button3;
         private TextBox idTxtBox;
+        private Button button2;
+        private Button attBtn;
         private Label title;
         private ListView listaVeiculos;
     }

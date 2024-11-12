@@ -114,6 +114,25 @@ namespace Parking_Lot_Management.Dao
         }
 
 
+        public string BuscarNomeMotoristaPorId(int motoristaId)
+        {
+            using (var con = new MySqlConnection(connectionString))
+            {
+                con.Open();
+                string query = "SELECT Nome FROM Motorista WHERE Id = @MotoristaId";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@MotoristaId", motoristaId);
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    return reader["Nome"].ToString();
+                }
+                con.Close();
+                return null;
+            }
+        }
+
 
     }
 }

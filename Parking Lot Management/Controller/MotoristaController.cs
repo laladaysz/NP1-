@@ -48,5 +48,10 @@ namespace Parking_Lot_Management.Controller
         {
             motoristaDao.DesativarMotorista(id);
         }
+
+        public string GetNomeMotoristaById(int motoristaId)
+        {
+            return motoristaDao.BuscarNomeMotoristaPorId(motoristaId);
+        }
     }
 }

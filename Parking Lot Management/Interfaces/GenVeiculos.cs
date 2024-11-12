@@ -35,22 +35,23 @@ namespace Parking_Lot_Management.Interfaces
             listaVeiculos.Columns.Add("Motorista", 80);
 
         }
-
-        private void atBtn_Click(object sender, EventArgs e) // att button
+        private void attBtn_Click(object sender, EventArgs e)
         {
-            List<Veiculo> veiculos = veiculoControl.GetAllVeiculo();
             listaVeiculos.Items.Clear();
 
-            foreach (var veiculo in veiculos)
+            var veiculosComMotorista = veiculoControl.GetVeiculosComMotorista();
+
+            foreach (var (veiculo, nomeMotorista) in veiculosComMotorista)
             {
                 ListViewItem item = new ListViewItem(veiculo.Id.ToString());
                 item.SubItems.Add(veiculo.Placa);
                 item.SubItems.Add(veiculo.Modelo);
                 item.SubItems.Add(veiculo.Cor);
-                item.SubItems.Add(veiculo.MotoristaId); // arrumar isso aqui 
+                item.SubItems.Add(nomeMotorista);
 
                 listaVeiculos.Items.Add(item);
             }
+
         }
     }
 }
