@@ -1,0 +1,31 @@
+﻿using MySql.Data.MySqlClient;
+using Parking_Lot_Management.Model;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Parking_Lot_Management.Dao
+{
+    public class VagaDAO
+    {
+        private string connectionString = "server=localhost;database=parking_lot;user=root;password=";
+
+        public void CadastrarVaga(Vaga vaga)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "INSERT INTO Vaga (Numero, Tipo, Disponivel, Localizacao) VALUES (@Numero, @Tipo, @Disponivel, @Localizacao)";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@Numero", vaga.Numero);
+                cmd.Parameters.AddWithValue("@Tipo", vaga.Tipo);
+                cmd.Parameters.AddWithValue("@Disponivel", vaga.Disponivel);
+                cmd.Parameters.AddWithValue("@Localizacao", vaga.Localizacao);
+                
+                cmd.ExecuteNonQuery();
+            }
+        }
+    }
+}
