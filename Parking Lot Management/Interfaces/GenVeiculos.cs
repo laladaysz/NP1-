@@ -53,5 +53,23 @@ namespace Parking_Lot_Management.Interfaces
             }
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (listaVeiculos.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = listaVeiculos.SelectedItems[0];
+                int veiculoId = int.Parse(selectedItem.Text);
+                veiculoControl.DeleteVeiculo(veiculoId);
+
+                attBtn_Click(sender, e);
+
+                MessageBox.Show("Veículo excluído com sucesso!");
+            }
+            else
+            {
+                MessageBox.Show("Selecione um veículo para excluir.");
+            }
+        }
     }
 }
