@@ -128,16 +128,18 @@ namespace Parking_Lot_Management.Dao
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@MotoristaId", motoristaId);
 
-                MySqlDataReader reader = cmd.ExecuteReader();
-                if (reader.Read())
+                using (MySqlDataReader reader = cmd.ExecuteReader())
                 {
-                    return reader["Nome"].ToString();
+                    if (reader.Read()) 
+                    {
+                        return reader["Nome"].ToString(); 
+                    }
                 }
-                con.Close();
-                return null;
             }
+
+            return null; 
         }
 
-        
+
     }
 }

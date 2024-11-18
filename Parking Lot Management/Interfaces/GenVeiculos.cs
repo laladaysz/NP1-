@@ -1,5 +1,6 @@
 ﻿using Parking_Lot_Management.Controller;
 using Parking_Lot_Management.Model;
+using Parking_Lot_Management.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -70,6 +71,42 @@ namespace Parking_Lot_Management.Interfaces
             {
                 MessageBox.Show("Selecione um veículo para excluir.");
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(idTxtBox.Text, out int veiculoId))
+            {
+                try
+                {
+                    var (veiculo, nomeMotorista) = veiculoControl.GetVeiculoComMotoristaPorId(veiculoId);
+
+                    listaVeiculos.Items.Clear();
+
+                    ListViewItem item = new ListViewItem(veiculo.Id.ToString());
+                    item.SubItems.Add(veiculo.Placa);
+                    item.SubItems.Add(veiculo.Modelo);
+                    item.SubItems.Add(veiculo.Cor);
+                    item.SubItems.Add(nomeMotorista);
+
+                    listaVeiculos.Items.Add(item);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+            }
+            else
+            {
+                MessageBox.Show("ID inválido. Por favor, insira um número válido.");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            HomeAdmin homeAdmin = new HomeAdmin();
+            homeAdmin.Show();
         }
     }
 }

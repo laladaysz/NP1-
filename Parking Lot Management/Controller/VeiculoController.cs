@@ -64,5 +64,15 @@ namespace Parking_Lot_Management.Controller
 
             return resultado;
         }
+
+        public (Veiculo veiculo, string nomeMotorista) GetVeiculoComMotoristaPorId(int idVeiculo)
+        {
+            var veiculo = veiculoDAO.GetVeiculoById(idVeiculo); 
+
+            string nomeMotorista = motoristaController.GetNomeMotoristaById(veiculo.MotoristaId);
+
+            return (veiculo, nomeMotorista);
+        }
+
     }
 }

@@ -73,9 +73,9 @@ namespace Parking_Lot_Management.Dao
                     Veiculo veiculo = new Veiculo()
                     {
                         Id = (int)reader["Id"],
-                        Placa = (string)reader["Nome"],
-                        Modelo = (string)reader["Email"],
-                        Cor = (string)reader["Telefone"],
+                        Placa = (string)reader["Placa"],
+                        Modelo = (string)reader["Modelo"],
+                        Cor = (string)reader["Cor"],
                         MotoristaId = (int)reader["MotoristaId"]
                     };
                     con.Close();

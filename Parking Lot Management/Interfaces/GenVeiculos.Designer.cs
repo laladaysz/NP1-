@@ -56,6 +56,7 @@
             button1.TabIndex = 17;
             button1.Text = "<";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label2
             // 
@@ -74,6 +75,7 @@
             button3.TabIndex = 15;
             button3.Text = "Buscar";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // idTxtBox
             // 
@@ -110,9 +112,9 @@
             title.AutoSize = true;
             title.Location = new Point(80, 40);
             title.Name = "title";
-            title.Size = new Size(181, 25);
+            title.Size = new Size(177, 25);
             title.TabIndex = 11;
-            title.Text = "Usuários cadastrados";
+            title.Text = "Veículos cadastrados";
             // 
             // listaVeiculos
             // 
