@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            desativarBtn = new Button();
+            alterarBtn = new Button();
             button1 = new Button();
             label2 = new Label();
             button3 = new Button();
@@ -39,14 +39,15 @@
             listaVeiculos = new ListView();
             SuspendLayout();
             // 
-            // desativarBtn
+            // alterarBtn
             // 
-            desativarBtn.Location = new Point(520, 373);
-            desativarBtn.Name = "desativarBtn";
-            desativarBtn.Size = new Size(169, 39);
-            desativarBtn.TabIndex = 18;
-            desativarBtn.Text = "Alterar";
-            desativarBtn.UseVisualStyleBackColor = true;
+            alterarBtn.Location = new Point(520, 373);
+            alterarBtn.Name = "alterarBtn";
+            alterarBtn.Size = new Size(169, 39);
+            alterarBtn.TabIndex = 18;
+            alterarBtn.Text = "Alterar";
+            alterarBtn.UseVisualStyleBackColor = true;
+            alterarBtn.Click += alterarBtn_Click;
             // 
             // button1
             // 
@@ -129,7 +130,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(desativarBtn);
+            Controls.Add(alterarBtn);
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(button3);
@@ -145,7 +146,7 @@
         }
 
         #endregion
-        private Button desativarBtn;
+        private Button alterarBtn;
         private Button button1;
         private Label label2;
         private Button button3;

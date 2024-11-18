@@ -74,5 +74,19 @@ namespace Parking_Lot_Management.Controller
             return (veiculo, nomeMotorista);
         }
 
+        public void AtualizarVeiculo(int id, string placa, string modelo, string cor, int motoristaId)
+        {
+            var veiculo = new Veiculo
+            {
+                Id = id,
+                Placa = placa,
+                Modelo = modelo,
+                Cor = cor,
+                MotoristaId = motoristaId,
+            };
+
+            veiculoDAO.AtualizarVeiculo(veiculo);
+        }
+
     }
 }

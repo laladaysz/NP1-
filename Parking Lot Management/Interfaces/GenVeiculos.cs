@@ -93,7 +93,7 @@ namespace Parking_Lot_Management.Interfaces
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.ToString());
+                    MessageBox.Show("Veículo não encontrado.");
                 }
             }
             else
@@ -107,6 +107,26 @@ namespace Parking_Lot_Management.Interfaces
             this.Close();
             HomeAdmin homeAdmin = new HomeAdmin();
             homeAdmin.Show();
+        }
+
+        private void alterarBtn_Click(object sender, EventArgs e)
+        {
+            if (listaVeiculos.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = listaVeiculos.SelectedItems[0];
+                int veiculoId = int.Parse(selectedItem.Text);
+
+                var veiculo = veiculoControl.GetVeiculoById(veiculoId);
+
+                AlterarVeiculo alterarForm = new AlterarVeiculo(veiculo);
+                alterarForm.ShowDialog();
+
+                attBtn_Click(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("Selecione um veículo para alterar.");
+            }
         }
     }
 }

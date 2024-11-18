@@ -130,6 +130,24 @@ namespace Parking_Lot_Management.Dao
 
         }
 
+        public void AtualizarVeiculo(Veiculo veiculo)
+        {
+            using (var con = new MySqlConnection(connectionString))
+            {
+                con.Open();
+                string query = "UPDATE Veiculo SET Placa = @Placa, Modelo = @Modelo, Cor = @Cor, MotoristaId = @MotoId WHERE Id = @Id";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+
+                cmd.Parameters.AddWithValue("@Id", veiculo.Id);
+                cmd.Parameters.AddWithValue("@Placa", veiculo.Placa);
+                cmd.Parameters.AddWithValue("@Modelo", veiculo.Modelo);
+                cmd.Parameters.AddWithValue("@Cor", veiculo.Cor);
+                cmd.Parameters.AddWithValue("@MotoId", veiculo.MotoristaId);
+
+                cmd.ExecuteNonQuery();
+            }
+        }
+
 
     }
 }
