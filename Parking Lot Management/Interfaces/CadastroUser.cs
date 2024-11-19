@@ -20,17 +20,16 @@ namespace Parking_Lot_Management.Interfaces
             usuarioController = new UsuarioController();
         }
 
-        private void cadBtn_Click(object sender, EventArgs e)
+        private void cadBtn_Click_1(object sender, EventArgs e)
         {
             string nome = nomeTxt.Text;
             string email = emailTxt.Text;
             string senha = senhaTxt.Text;
-            string role = "User"; 
+            string role = "User";
             bool ativado = true;
 
             try
             {
-                
                 usuarioController.CadastrarUsuario(nome, email, senha, role, ativado);
                 MessageBox.Show("Usuário cadastrado com sucesso!");
                 this.Close();

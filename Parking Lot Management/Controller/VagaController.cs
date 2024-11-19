@@ -17,15 +17,17 @@ namespace Parking_Lot_Management.Controller
             vagaDAO = new VagaDAO();
         }
 
-        public void CadastrarVaga( string numero, string tipo, bool disponivel, string localizacao)
+        public void CadastrarVaga( string numero, string tipo, string localizacao)
         {
             Vaga vaga = new Vaga
             {
                 Numero = numero,
                 Tipo = tipo,
-                Disponivel = disponivel,
+                Disponivel = true,
                 Localizacao = localizacao
             };
+
+            vagaDAO.CadastrarVaga(vaga);
 
         }
     }
