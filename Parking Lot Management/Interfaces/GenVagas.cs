@@ -1,5 +1,6 @@
 ﻿using Parking_Lot_Management.Controller;
 using Parking_Lot_Management.Model;
+using Parking_Lot_Management.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -49,6 +50,31 @@ namespace Parking_Lot_Management.Interfaces
 
                 listaVagas.Items.Add(item);
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (listaVagas.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = listaVagas.SelectedItems[0];
+                int vagaId = int.Parse(selectedItem.Text);
+                controller.DeletarVaga(vagaId);
+
+                attBtn_Click(sender, e);
+
+                MessageBox.Show("Vaga excluída com sucesso!");
+            }
+            else
+            {
+                MessageBox.Show("Selecione uma vaga para excluir.");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            HomeAdmin homeAdmin = new HomeAdmin();
+            homeAdmin.Show();
         }
     }
 }

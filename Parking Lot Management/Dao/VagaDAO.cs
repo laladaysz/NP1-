@@ -55,5 +55,19 @@ namespace Parking_Lot_Management.Dao
             }
             return vagas;
         }
+
+        public void DeleteVaga(int id)
+        {
+            using (var conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "DELETE FROM Vaga WHERE Id = @Id";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@Id", id);
+                cmd.ExecuteNonQuery();
+                conn.Close();
+
+            }
+        }
     }
 }

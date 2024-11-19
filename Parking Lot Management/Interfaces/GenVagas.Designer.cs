@@ -56,6 +56,7 @@
             button1.TabIndex = 26;
             button1.Text = "<";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label2
             // 
@@ -93,6 +94,7 @@
             button2.TabIndex = 22;
             button2.Text = "Deletar";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // attBtn
             // 
@@ -109,9 +111,9 @@
             title.AutoSize = true;
             title.Location = new Point(80, 43);
             title.Name = "title";
-            title.Size = new Size(177, 25);
+            title.Size = new Size(158, 25);
             title.TabIndex = 20;
-            title.Text = "Veículos cadastrados";
+            title.Text = "Vagas cadastradas";
             // 
             // listaVagas
             // 
