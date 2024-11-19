@@ -30,18 +30,18 @@ namespace Parking_Lot_Management.Interfaces
             this.relatorios.FullRowSelect = true;
             this.relatorios.GridLines = true;
 
-            // Adicionando colunas
+            
             this.relatorios.Columns.Add("Descrição", 150);
             this.relatorios.Columns.Add("Total Entradas", 120);
             this.relatorios.Columns.Add("Total Saídas", 120);
             this.relatorios.Columns.Add("Total Pagos", 120);
             this.relatorios.Columns.Add("Total Não Pagos", 120);
 
-            // Definir tamanho e localização manualmente
-            this.relatorios.Size = new System.Drawing.Size(700, 300); // Largura e altura
-            this.relatorios.Location = new System.Drawing.Point(50, 50); // Posição no formulário
+            
+            this.relatorios.Size = new System.Drawing.Size(700, 300); 
+            this.relatorios.Location = new System.Drawing.Point(50, 50); 
 
-            // Adicionar o ListView ao formulário
+
             this.Controls.Add(this.relatorios);
         }
 

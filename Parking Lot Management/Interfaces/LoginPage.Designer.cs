@@ -97,6 +97,7 @@
             // 
             senhaTxtBox.Location = new Point(296, 242);
             senhaTxtBox.Name = "senhaTxtBox";
+            senhaTxtBox.PasswordChar = '*';
             senhaTxtBox.Size = new Size(210, 31);
             senhaTxtBox.TabIndex = 6;
             // 
