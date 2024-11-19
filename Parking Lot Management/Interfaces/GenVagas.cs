@@ -76,5 +76,34 @@ namespace Parking_Lot_Management.Interfaces
             HomeAdmin homeAdmin = new HomeAdmin();
             homeAdmin.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(idTxtBox.Text, out int vagaId))
+            {
+                Vaga vaga = controller.GetVagaById(vagaId);
+                listaVagas.Items.Clear();
+
+                if (vaga != null)
+                {
+                    ListViewItem item = new ListViewItem(vaga.Id.ToString());
+                    item.SubItems.Add(vaga.Numero);
+                    item.SubItems.Add(vaga.Tipo);
+                    item.SubItems.Add(vaga.Disponivel ? "Sim" : "Não");
+                    item.SubItems.Add(vaga.Localizacao);
+                    
+
+                    listaVagas.Items.Add(item);
+                }
+                else
+                {
+                    MessageBox.Show("Vaga não encontrada.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("ID inválido. Por favor, insira um número válido.");
+            }
+        }
     }
 }

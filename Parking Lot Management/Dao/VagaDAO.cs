@@ -69,5 +69,33 @@ namespace Parking_Lot_Management.Dao
 
             }
         }
+
+        public Vaga GetVagaById(int id)
+        {
+            using (var con = new MySqlConnection(connectionString))
+            {
+                con.Open();
+                string query = "SELECT * FROM Vaga WHERE Id = @Id";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@Id", id);
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    Vaga vaga = new Vaga()
+                    {
+                        Id = (int)reader["Id"],
+                        Numero = (string)reader["Numero"],
+                        Tipo = (string)reader["Tipo"],
+                        Disponivel = (bool)reader["Disponivel"],
+                        Localizacao = (string)reader["Localizacao"]
+                    };
+                    con.Close();
+                    return vaga;
+                }
+
+                return null;
+            }
+        }
     }
 }

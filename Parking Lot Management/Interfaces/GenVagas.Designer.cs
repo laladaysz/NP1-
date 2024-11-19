@@ -75,6 +75,7 @@
             button3.TabIndex = 24;
             button3.Text = "Buscar";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // idTxtBox
             // 

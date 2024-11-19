@@ -39,5 +39,10 @@ namespace Parking_Lot_Management.Controller
         {
             vagaDAO.DeleteVaga(id);
         }
+
+        public Vaga GetVagaById(int id)
+        {
+            return vagaDAO.GetVagaById(id);
+        }
     }
 }
