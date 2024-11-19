@@ -37,6 +37,9 @@ namespace Parking_Lot_Management
                     HomeAdmin homeAdmin = new HomeAdmin();
                     homeAdmin.Show();
 
+                } else
+                {
+                    MessageBox.Show("Você não tem permissão para acessar esse sistema!");
                 }
 
             }

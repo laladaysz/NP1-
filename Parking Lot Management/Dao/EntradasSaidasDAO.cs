@@ -98,5 +98,18 @@ namespace Parking_Lot_Management.Dao
             }
             return entradas;
         }
+
+        public void ExcluirRegistro(int Id)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string deleteVeiculosQuery = "DELETE FROM EntradasSaidas WHERE Id = @Id";
+                MySqlCommand deleteVeiculosCmd = new MySqlCommand(deleteVeiculosQuery, conn);
+                deleteVeiculosCmd.Parameters.AddWithValue("@Id", Id);
+                deleteVeiculosCmd.ExecuteNonQuery();
+                conn.Close();
+            }
+        }
     }
 }

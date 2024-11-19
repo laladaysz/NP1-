@@ -35,5 +35,10 @@ namespace Parking_Lot_Management.Controller
         {
             return entradasSaidasDAO.GetAllEntradasSaidas();
         }
+
+        public void ExcluirRegistro(int Id)
+        {
+            entradasSaidasDAO.ExcluirRegistro(Id);
+        }
     }
 }

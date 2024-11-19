@@ -59,6 +59,7 @@
             delBtn.TabIndex = 24;
             delBtn.Text = "Deletar";
             delBtn.UseVisualStyleBackColor = false;
+            delBtn.Click += delBtn_Click;
             // 
             // attBtn
             // 
@@ -68,7 +69,7 @@
             attBtn.TabIndex = 23;
             attBtn.Text = "Atualizar";
             attBtn.UseVisualStyleBackColor = true;
-            attBtn.Click += this.attBtn_Click;
+            attBtn.Click += attBtn_Click;
             // 
             // backBtn
             // 
@@ -78,6 +79,7 @@
             backBtn.TabIndex = 22;
             backBtn.Text = "<";
             backBtn.UseVisualStyleBackColor = true;
+            backBtn.Click += backBtn_Click;
             // 
             // label2
             // 
