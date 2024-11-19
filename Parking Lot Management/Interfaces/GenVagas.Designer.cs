@@ -47,6 +47,7 @@
             alterarBtn.TabIndex = 27;
             alterarBtn.Text = "Alterar";
             alterarBtn.UseVisualStyleBackColor = true;
+            alterarBtn.Click += alterarBtn_Click;
             // 
             // button1
             // 

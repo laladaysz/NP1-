@@ -97,5 +97,22 @@ namespace Parking_Lot_Management.Dao
                 return null;
             }
         }
+
+        public void AtualizarVaga(Vaga vaga)
+        {
+            using (var con = new MySqlConnection(connectionString))
+            {
+                con.Open();
+                string query = "UPDATE Vaga SET Numero = @Numero, Tpo = @Tipo, Localizacao = @Loalizacao WHERE Id = @Id";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+
+                cmd.Parameters.AddWithValue("@Id", vaga.Id);
+                cmd.Parameters.AddWithValue("@Numero", vaga.Localizacao);
+                cmd.Parameters.AddWithValue("@Tipo", vaga.Tipo);
+                cmd.Parameters.AddWithValue("@Localizacao", vaga.Localizacao);
+
+                cmd.ExecuteNonQuery();
+            }
+        }
     }
 }

@@ -16,6 +16,9 @@
     <Compile Update="Interfaces\CadastroVaga.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Interfaces\AlterarVaga.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Interfaces\GenVagas.cs">
       <SubType>Form</SubType>
     </Compile>

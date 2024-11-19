@@ -91,7 +91,7 @@ namespace Parking_Lot_Management.Interfaces
                     item.SubItems.Add(vaga.Tipo);
                     item.SubItems.Add(vaga.Disponivel ? "Sim" : "Não");
                     item.SubItems.Add(vaga.Localizacao);
-                    
+
 
                     listaVagas.Items.Add(item);
                 }
@@ -103,6 +103,26 @@ namespace Parking_Lot_Management.Interfaces
             else
             {
                 MessageBox.Show("ID inválido. Por favor, insira um número válido.");
+            }
+        }
+
+        private void alterarBtn_Click(object sender, EventArgs e)
+        {
+            if (listaVagas.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = listaVagas.SelectedItems[0];
+                int vagaId = int.Parse(selectedItem.Text);
+
+                var vaga = controller.GetVagaById(vagaId);
+                    
+                AlterarVaga alterarForm = new AlterarVaga(vaga);
+                alterarForm.ShowDialog();
+
+                attBtn_Click(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("Selecione uma vaga para alterar.");
             }
         }
     }
