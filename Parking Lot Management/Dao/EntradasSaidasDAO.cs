@@ -38,8 +38,6 @@ namespace Parking_Lot_Management.Dao
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-
-                // Consulta SQL para carregar as entradas e saídas com todos os dados necessários
                 string query = @"
             SELECT 
                 es.Id,

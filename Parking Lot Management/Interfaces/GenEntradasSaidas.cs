@@ -35,6 +35,7 @@ namespace Parking_Lot_Management.Interfaces
             listaEntradasSaidas.Columns.Add("Vaga", 100);
             listaEntradasSaidas.Columns.Add("Data Entrada", 150);
             listaEntradasSaidas.Columns.Add("Data Saída", 150);
+            listaEntradasSaidas.Columns.Add("Pago", 80);
         }
 
         private void attBtn_Click(object sender, EventArgs e)
@@ -50,6 +51,7 @@ namespace Parking_Lot_Management.Interfaces
                 item.SubItems.Add(entradaSaida.Vaga.Numero.ToString());
                 item.SubItems.Add(entradaSaida.Entrada.ToString("dd/MM/yyyy HH:mm:ss"));
                 item.SubItems.Add(entradaSaida.Saida.HasValue ? entradaSaida.Saida.Value.ToString("dd/MM/yyyy HH:mm:ss") : "Em aberto");
+                item.SubItems.Add(entradaSaida.Pago ? "Sim" : "Não");
 
                 listaEntradasSaidas.Items.Add(item);
             }
