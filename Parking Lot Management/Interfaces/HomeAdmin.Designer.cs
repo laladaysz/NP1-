@@ -51,6 +51,8 @@
             button8 = new Button();
             button9 = new Button();
             label6 = new Label();
+            label9 = new Label();
+            button2 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -216,9 +218,9 @@
             label14.AutoSize = true;
             label14.Location = new Point(500, 291);
             label14.Name = "label14";
-            label14.Size = new Size(152, 25);
+            label14.Size = new Size(150, 25);
             label14.TabIndex = 23;
-            label14.Text = "Entradas e saídas:";
+            label14.Text = "Registrar entrada:";
             // 
             // label15
             // 
@@ -278,11 +280,32 @@
             label6.TabIndex = 27;
             label6.Text = "Veículos:";
             // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(504, 387);
+            label9.Name = "label9";
+            label9.Size = new Size(94, 25);
+            label9.TabIndex = 29;
+            label9.Text = "Relatórios:";
+            // 
+            // button2
+            // 
+            button2.Location = new Point(607, 382);
+            button2.Name = "button2";
+            button2.Size = new Size(99, 35);
+            button2.TabIndex = 30;
+            button2.Text = "Visualizar";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // HomeAdmin
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
+            Controls.Add(label9);
             Controls.Add(button9);
             Controls.Add(label6);
             Controls.Add(button8);
@@ -338,5 +361,7 @@
         private Button button8;
         private Button button9;
         private Label label6;
+        private Label label9;
+        private Button button2;
     }
 }

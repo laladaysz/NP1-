@@ -91,5 +91,12 @@ namespace Parking_Lot_Management.View
             GenEntradasSaidas genEntradas = new GenEntradasSaidas();
             genEntradas.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            BI bI = new BI();
+            bI.Show();
+        }
     }
 }
