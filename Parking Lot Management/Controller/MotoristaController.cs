@@ -53,5 +53,10 @@ namespace Parking_Lot_Management.Controller
         {
             return motoristaDao.BuscarNomeMotoristaPorId(motoristaId);
         }
+
+        public List<Motorista> GetMotoristaAtivos()
+        {
+            return motoristaDao.GetMotoristaAtivo();
+        }
     }
 }

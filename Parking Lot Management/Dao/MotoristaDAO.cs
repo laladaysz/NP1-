@@ -141,5 +141,34 @@ namespace Parking_Lot_Management.Dao
         }
 
 
+        public List<Motorista> GetMotoristaAtivo()
+        {
+            List<Motorista> motoristas = new List<Motorista>();
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "SELECT * FROM Motorista WHERE Ativo = 1";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Motorista motorista = new Motorista
+                    {
+                        Id = (int)reader["Id"],
+                        Nome = (string)reader["Nome"],
+                        Email = (string)reader["Email"],
+                        Telefone = (string)reader["Telefone"],
+                        Ativo = (bool)reader["Ativo"]
+                    };
+
+                    motoristas.Add(motorista);
+                }
+                conn.Close();
+            }
+            return motoristas;
+        }
+
     }
 }

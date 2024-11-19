@@ -40,7 +40,7 @@ namespace Parking_Lot_Management.Interfaces
 
             if (motoristas.Count > 0)
             {
-                motoComboBox.SelectedIndex = 0;  // Selecionar o primeiro item
+                motoComboBox.SelectedIndex = 0;  
             }
         }
 
@@ -88,6 +88,7 @@ namespace Parking_Lot_Management.Interfaces
                 int vagaId = (int)vagaComboBox.SelectedValue;
 
                 entradasSaidasController.CadastrarEntrada(motoristaId, veiculoId, vagaId);
+                vagaController.OcuparVaga(vagaId);
                 MessageBox.Show("Entrada registrada com sucesso!");
             }
             catch (Exception ex)

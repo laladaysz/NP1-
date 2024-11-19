@@ -64,5 +64,10 @@ namespace Parking_Lot_Management.Controller
             return vagaDAO.GetVagasDisponiveis();
 
         }
+
+        public void OcuparVaga(int Id)
+        {
+            vagaDAO.OcuparVaga(Id);
+        }
     }
 }

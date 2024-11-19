@@ -26,7 +26,7 @@ namespace Parking_Lot_Management.Interfaces
 
         private void CarregarMotoristasComboBox()
         {
-            var motoristas = motoristaController.GetAllMotoristas();
+            var motoristas = motoristaController.GetMotoristaAtivos();
 
             motoristaBox.DataSource = motoristas;
             motoristaBox.DisplayMember = "Nome";
