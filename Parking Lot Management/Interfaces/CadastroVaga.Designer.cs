@@ -36,6 +36,7 @@
             tipoTxt = new TextBox();
             locTxt = new TextBox();
             cadastrarButton = new Button();
+            vltBtn = new Button();
             SuspendLayout();
             // 
             // label1
@@ -105,11 +106,22 @@
             cadastrarButton.UseVisualStyleBackColor = true;
             cadastrarButton.Click += cadastrarButton_Click;
             // 
+            // vltBtn
+            // 
+            vltBtn.Location = new Point(244, 38);
+            vltBtn.Name = "vltBtn";
+            vltBtn.Size = new Size(43, 38);
+            vltBtn.TabIndex = 17;
+            vltBtn.Text = "<";
+            vltBtn.UseVisualStyleBackColor = true;
+            vltBtn.Click += vltBtn_Click;
+            // 
             // CadastroVaga
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(vltBtn);
             Controls.Add(cadastrarButton);
             Controls.Add(locTxt);
             Controls.Add(tipoTxt);
@@ -134,5 +146,6 @@
         private TextBox tipoTxt;
         private TextBox locTxt;
         private Button cadastrarButton;
+        private Button vltBtn;
     }
 }

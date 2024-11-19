@@ -1,4 +1,5 @@
 ﻿using Parking_Lot_Management.Controller;
+using Parking_Lot_Management.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -29,7 +30,7 @@ namespace Parking_Lot_Management.Interfaces
             try
             {
                 controller.CadastrarVaga(num, tipo, loc);
-                
+
                 numTxt.Text = "";
                 tipoTxt.Text = "";
                 locTxt.Text = "";
@@ -44,5 +45,11 @@ namespace Parking_Lot_Management.Interfaces
 
         }
 
+        private void vltBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            HomeAdmin homeAdmin = new HomeAdmin();
+            homeAdmin.Show();
+        }
     }
 }

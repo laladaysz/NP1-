@@ -70,5 +70,12 @@ namespace Parking_Lot_Management.View
             CadastroVaga cadastroVaga = new CadastroVaga();
             cadastroVaga.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            GenVagas genVagas = new GenVagas();
+            genVagas.Show();
+        }
     }
 }

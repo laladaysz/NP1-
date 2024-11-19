@@ -30,5 +30,9 @@ namespace Parking_Lot_Management.Controller
             vagaDAO.CadastrarVaga(vaga);
 
         }
+
+        public List<Vaga> GetAllVagas() { 
+            return vagaDAO.GetAllVagas();
+        }
     }
 }

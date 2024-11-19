@@ -140,6 +140,7 @@
             button4.TabIndex = 11;
             button4.Text = "Entrar";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // label8
             // 
