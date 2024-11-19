@@ -45,10 +45,11 @@ namespace Parking_Lot_Management.Controller
             return vagaDAO.GetVagaById(id);
         }
 
-        public void AtualizarVaga(string numero,  string tipo, string localizacao)
+        public void AtualizarVaga(int id, string numero,  string tipo, string localizacao)
         {
             Vaga vaga = new Vaga
             {
+                Id = id,
                 Numero = numero,
                 Tipo = tipo,
                 Disponivel = true,

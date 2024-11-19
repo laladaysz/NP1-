@@ -41,3 +41,4 @@ C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\
 C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking_Lot_Management.Interfaces.AlterarVeiculo.resources
 C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking_Lot_Management.Interfaces.CadastroVaga.resources
 C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking_Lot_Management.Interfaces.GenVagas.resources
+C:\Users\ct67ca\Desktop\Parking Lot Management\Parking Lot Management\obj\Debug\net8.0-windows\Parking_Lot_Management.Interfaces.AlterarVaga.resources

@@ -56,6 +56,7 @@
             cadastrarButton.TabIndex = 25;
             cadastrarButton.Text = "Salvar";
             cadastrarButton.UseVisualStyleBackColor = true;
+            cadastrarButton.Click += this.cadastrarButton_Click;
             // 
             // locTxt
             // 
