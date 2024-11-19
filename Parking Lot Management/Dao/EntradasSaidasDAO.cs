@@ -109,5 +109,73 @@ namespace Parking_Lot_Management.Dao
                 conn.Close();
             }
         }
+
+        public void RegistrarSaida(int idEntrada)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "UPDATE EntradasSaidas SET Saida = @Saida, Pago = 1 WHERE Id = @Id";
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+
+                    cmd.Parameters.AddWithValue("@Saida", DateTime.Now);  
+                    cmd.Parameters.AddWithValue("@Id", idEntrada);        
+
+                    int rowsAffected = cmd.ExecuteNonQuery();  // Executa a query
+
+                }
+                catch (Exception ex)
+                {
+                    
+                    Console.WriteLine("Erro ao registrar a saída: " + ex.Message);
+                    
+                }
+            }
+        }
+
+        public EntradasSaidas GetEntradaSaidaById(int id)
+        {
+            EntradasSaidas entradaSaida = null;
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = @"
+            SELECT es.*, v.Id as VagaId, v.Numero as VagaNumero 
+            FROM EntradasSaidas es
+            LEFT JOIN Vaga v ON es.VagaId = v.Id
+            WHERE es.Id = @Id";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@Id", id);
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    entradaSaida = new EntradasSaidas
+                    {
+                        Id = (int)reader["Id"],
+                        MotoristaId = (int)reader["MotoristaId"],
+                        VeiculoId = (int)reader["VeiculoId"],
+                        VagaId = (int)reader["VagaId"],  
+                        Entrada = (DateTime)reader["Entrada"],
+                        Saida = reader.IsDBNull(reader.GetOrdinal("Saida")) ? (DateTime?)null : (DateTime)reader["Saida"],
+                        Pago = (bool)reader["Pago"]
+                    };
+
+                    if (entradaSaida.VagaId != 0)  
+                    {
+                        entradaSaida.Vaga = new Vaga
+                        {
+                            Id = (int)reader["VagaId"],
+                            Numero = (string)reader["VagaNumero"]
+                        };
+                    }
+                }
+            }
+
+            return entradaSaida;
+        }
     }
 }

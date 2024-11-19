@@ -16,10 +16,12 @@ namespace Parking_Lot_Management.Interfaces
     public partial class GenEntradasSaidas : Form
     {
         private EntradasSaidasController entradasSaidasController;
+        private VagaController vagaController;
         public GenEntradasSaidas()
         {
             InitializeComponent();
             entradasSaidasController = new EntradasSaidasController();
+            vagaController = new VagaController();
             ConfigurarListView();
         }
 
@@ -80,6 +82,44 @@ namespace Parking_Lot_Management.Interfaces
             this.Close();
             HomeAdmin homeAdmin = new HomeAdmin();
             homeAdmin.Show();
+        }
+
+        private void desativarBtn_Click(object sender, EventArgs e)
+        {
+            if (listaEntradasSaidas.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = listaEntradasSaidas.SelectedItems[0];
+                int idEntrada = int.Parse(selectedItem.Text);
+
+                var entradaSaida = entradasSaidasController.GetEntradaSaidaById(idEntrada);
+
+                if (entradaSaida != null)
+                {
+                    
+                    if (entradaSaida.Vaga != null)
+                    {
+                        int vagaId = entradaSaida.Vaga.Id;
+
+                        entradasSaidasController.RegistrarSaida(idEntrada);
+                        vagaController.DesocuparVaga(vagaId);
+
+                        MessageBox.Show("Saída registrada com sucesso!");
+                        attBtn_Click(sender, e);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Esta entrada não tem uma vaga associada.");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Registro de entrada e saída não encontrado.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Selecione um registro para registrar a saída.");
+            }
         }
     }
 }

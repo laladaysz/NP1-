@@ -156,5 +156,19 @@ namespace Parking_Lot_Management.Dao
                 cmd.ExecuteNonQuery();
             }
         }
+
+        public void DesocuparVaga(int Id)
+        {
+            using (var con = new MySqlConnection(connectionString))
+            {
+                con.Open();
+                string query = "UPDATE Vaga SET Disponivel = 1 WHERE Id = @Id";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+
+                cmd.Parameters.AddWithValue("@Id", Id);
+
+                cmd.ExecuteNonQuery();
+            }
+        }
     }
 }

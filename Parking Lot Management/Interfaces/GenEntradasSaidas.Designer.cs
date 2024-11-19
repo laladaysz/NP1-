@@ -32,9 +32,6 @@
             delBtn = new Button();
             attBtn = new Button();
             backBtn = new Button();
-            label2 = new Label();
-            buscarBtn = new Button();
-            idTxtBox = new TextBox();
             title = new Label();
             listaEntradasSaidas = new ListView();
             SuspendLayout();
@@ -47,6 +44,7 @@
             desativarBtn.TabIndex = 25;
             desativarBtn.Text = "Registar saída e pagamento";
             desativarBtn.UseVisualStyleBackColor = true;
+            desativarBtn.Click += desativarBtn_Click;
             // 
             // delBtn
             // 
@@ -81,31 +79,6 @@
             backBtn.UseVisualStyleBackColor = true;
             backBtn.Click += backBtn_Click;
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(507, 35);
-            label2.Name = "label2";
-            label2.Size = new Size(121, 25);
-            label2.TabIndex = 21;
-            label2.Text = "Buscar por Id:";
-            // 
-            // buscarBtn
-            // 
-            buscarBtn.Location = new Point(678, 33);
-            buscarBtn.Name = "buscarBtn";
-            buscarBtn.Size = new Size(77, 34);
-            buscarBtn.TabIndex = 20;
-            buscarBtn.Text = "Buscar";
-            buscarBtn.UseVisualStyleBackColor = true;
-            // 
-            // idTxtBox
-            // 
-            idTxtBox.Location = new Point(634, 35);
-            idTxtBox.Name = "idTxtBox";
-            idTxtBox.Size = new Size(38, 31);
-            idTxtBox.TabIndex = 19;
-            // 
             // title
             // 
             title.AutoSize = true;
@@ -132,9 +105,6 @@
             Controls.Add(delBtn);
             Controls.Add(attBtn);
             Controls.Add(backBtn);
-            Controls.Add(label2);
-            Controls.Add(buscarBtn);
-            Controls.Add(idTxtBox);
             Controls.Add(title);
             Controls.Add(listaEntradasSaidas);
             Name = "GenEntradasSaidas";
@@ -149,9 +119,6 @@
         private Button delBtn;
         private Button attBtn;
         private Button backBtn;
-        private Label label2;
-        private Button buscarBtn;
-        private TextBox idTxtBox;
         private Label title;
         private ListView listaEntradasSaidas;
     }

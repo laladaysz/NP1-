@@ -69,5 +69,10 @@ namespace Parking_Lot_Management.Controller
         {
             vagaDAO.OcuparVaga(Id);
         }
+
+        public void DesocuparVaga(int Id)
+        {
+            vagaDAO.DesocuparVaga(Id);
+        }
     }
 }
