@@ -107,7 +107,7 @@ namespace Parking_Lot_Management.Dao
             {
                 conn.Open();
                 string query = "SELECT * FROM Veiculo WHERE MotoristaId = @MotoristaId";
-                MySqlCommand cmd = new MySqlCommand();
+                MySqlCommand cmd = new MySqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@MotoristaId", MotoristaId);
              
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -119,7 +119,7 @@ namespace Parking_Lot_Management.Dao
                         Placa = (string)reader["Placa"],
                         Modelo = (string)reader["Modelo"],
                         Cor = (string)reader["Cor"],
-                        MotoristaId = (int)reader["IdMotorista"]
+                        MotoristaId = (int)reader["MotoristaId"]
                     };
 
                     veiculos.Add(veiculo);

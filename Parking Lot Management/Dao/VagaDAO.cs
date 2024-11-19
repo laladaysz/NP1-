@@ -114,5 +114,33 @@ namespace Parking_Lot_Management.Dao
                 cmd.ExecuteNonQuery();
             }
         }
+
+        public List<Vaga> GetVagasDisponiveis()
+        {
+            List<Vaga> vagas = new List<Vaga>();
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "SELECT * FROM Vaga WHERE Disponivel = 1";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Vaga vaga = new Vaga
+                    {
+                        Id = (int)reader["Id"],
+                        Numero = (string)reader["Numero"],
+                        Tipo = (string)reader["Tipo"],
+                        Disponivel = (bool)reader["Disponivel"],
+                        Localizacao = (string)reader["Localizacao"]
+                    };
+
+                    vagas.Add(vaga);
+                }
+            }
+            return vagas;
+        }
     }
 }

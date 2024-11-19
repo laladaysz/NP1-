@@ -3,16 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\dao\\vagadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\dao\\vagadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\interfaces\\cadastroentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\cadastroentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\parking lot management\\interfaces\\cadastroentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\cadastroentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\parking lot management\\interfaces\\genvagas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\genvagas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\interfaces\\cadastroentrada.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\cadastroentrada.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\dao\\veiculodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\dao\\veiculodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\controller\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\controller\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\controller\\vagacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\controller\\vagacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\interfaces\\homeadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\homeadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\dao\\vagadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\dao\\vagadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\interfaces\\homeadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\homeadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\controller\\motoristacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\controller\\motoristacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\interfaces\\alterarvaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\alterarvaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\controller\\entradassaidascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\controller\\entradassaidascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\model\\entradassaidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\model\\entradassaidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\dao\\entradassaidasdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\dao\\entradassaidasdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\dao\\motoristadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\dao\\motoristadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\interfaces\\alterarveiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,27 +75,15 @@
       "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\genvagas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\interfaces\\genvagas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\genvagas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\controller\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\controller\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\interfaces\\alterarvaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\parking lot management\\interfaces\\alterarvaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\alterarvaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\interfaces\\alterarveiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\parking lot management\\interfaces\\alterarveiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\alterarveiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\dao\\veiculodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\dao\\veiculodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|c:\\users\\ct67ca\\desktop\\parking lot management\\parking lot management\\interfaces\\genveiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\parking lot management\\interfaces\\genveiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CC73A0AB-1A67-4F00-BAC5-F81EE329BBE5}|Parking Lot Management\\Parking Lot Management.csproj|solutionrelative:parking lot management\\interfaces\\genveiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -58,28 +98,148 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CadastroEntrada.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\CadastroEntrada.Designer.cs",
+              "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\CadastroEntrada.Designer.cs",
+              "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\CadastroEntrada.Designer.cs",
+              "RelativeToolTip": "Parking Lot Management\\Interfaces\\CadastroEntrada.Designer.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:10:45.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\HomeAdmin.cs",
+              "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\HomeAdmin.cs",
+              "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\HomeAdmin.cs",
+              "RelativeToolTip": "Parking Lot Management\\Interfaces\\HomeAdmin.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAjwFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:50:30.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeAdmin.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\HomeAdmin.cs",
+              "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\HomeAdmin.cs",
+              "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\HomeAdmin.cs [Projeto]",
+              "RelativeToolTip": "Parking Lot Management\\Interfaces\\HomeAdmin.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:50:26.286Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CadastroEntrada.cs",
+              "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\CadastroEntrada.cs",
+              "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\CadastroEntrada.cs",
+              "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\CadastroEntrada.cs",
+              "RelativeToolTip": "Parking Lot Management\\Interfaces\\CadastroEntrada.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAADgv1kAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:42:05.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CadastroEntrada.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\CadastroEntrada.cs",
+              "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\CadastroEntrada.cs",
+              "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\CadastroEntrada.cs [Projeto]",
+              "RelativeToolTip": "Parking Lot Management\\Interfaces\\CadastroEntrada.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:33:23.935Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MotoristaController.cs",
+              "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Controller\\MotoristaController.cs",
+              "RelativeDocumentMoniker": "Parking Lot Management\\Controller\\MotoristaController.cs",
+              "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Controller\\MotoristaController.cs",
+              "RelativeToolTip": "Parking Lot Management\\Controller\\MotoristaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:25:14.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EntradasSaidasController.cs",
+              "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Controller\\EntradasSaidasController.cs",
+              "RelativeDocumentMoniker": "Parking Lot Management\\Controller\\EntradasSaidasController.cs",
+              "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Controller\\EntradasSaidasController.cs",
+              "RelativeToolTip": "Parking Lot Management\\Controller\\EntradasSaidasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:24:43.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MotoristaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Dao\\MotoristaDAO.cs",
+              "RelativeDocumentMoniker": "Parking Lot Management\\Dao\\MotoristaDAO.cs",
+              "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Dao\\MotoristaDAO.cs",
+              "RelativeToolTip": "Parking Lot Management\\Dao\\MotoristaDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:21:11.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EntradasSaidasDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Dao\\EntradasSaidasDAO.cs",
+              "RelativeDocumentMoniker": "Parking Lot Management\\Dao\\EntradasSaidasDAO.cs",
+              "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Dao\\EntradasSaidasDAO.cs",
+              "RelativeToolTip": "Parking Lot Management\\Dao\\EntradasSaidasDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:20:46.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EntradasSaidas.cs",
+              "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Model\\EntradasSaidas.cs",
+              "RelativeDocumentMoniker": "Parking Lot Management\\Model\\EntradasSaidas.cs",
+              "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Model\\EntradasSaidas.cs",
+              "RelativeToolTip": "Parking Lot Management\\Model\\EntradasSaidas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:00:10.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "VagaDAO.cs",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Dao\\VagaDAO.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Dao\\VagaDAO.cs",
               "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Dao\\VagaDAO.cs",
               "RelativeToolTip": "Parking Lot Management\\Dao\\VagaDAO.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGkAAABpAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAmwHwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T16:41:33.998Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "GenVagas.cs",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\GenVagas.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\GenVagas.cs",
@@ -92,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "GenVagas.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\GenVagas.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\GenVagas.cs",
@@ -104,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "AlterarVeiculo.cs",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\AlterarVeiculo.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\AlterarVeiculo.cs",
@@ -117,44 +277,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "AlterarVaga.cs",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\AlterarVaga.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\AlterarVaga.cs",
               "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\AlterarVaga.cs",
               "RelativeToolTip": "Parking Lot Management\\Interfaces\\AlterarVaga.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwB0AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T14:14:04.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "AlterarVeiculo.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\AlterarVeiculo.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\AlterarVeiculo.cs",
               "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\AlterarVeiculo.cs [Projeto]",
               "RelativeToolTip": "Parking Lot Management\\Interfaces\\AlterarVeiculo.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:20:16.248Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-11-19T14:20:16.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "AlterarVaga.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\AlterarVaga.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\AlterarVaga.cs",
               "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\AlterarVaga.cs [Projeto]",
               "RelativeToolTip": "Parking Lot Management\\Interfaces\\AlterarVaga.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:13:27.212Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-11-19T14:13:27.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "GenVeiculos.cs",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\GenVeiculos.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\GenVeiculos.cs",
@@ -167,51 +325,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "GenVeiculos.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\GenVeiculos.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Interfaces\\GenVeiculos.cs",
               "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Interfaces\\GenVeiculos.cs [Projeto]",
               "RelativeToolTip": "Parking Lot Management\\Interfaces\\GenVeiculos.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:11:54.45Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-11-19T14:11:54.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "VeiculoController.cs",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Controller\\VeiculoController.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Controller\\VeiculoController.cs",
               "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Controller\\VeiculoController.cs",
               "RelativeToolTip": "Parking Lot Management\\Controller\\VeiculoController.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAwwFQAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAADwv0gAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T13:50:06.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "VeiculoDAO.cs",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Dao\\VeiculoDAO.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Dao\\VeiculoDAO.cs",
               "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Dao\\VeiculoDAO.cs",
               "RelativeToolTip": "Parking Lot Management\\Dao\\VeiculoDAO.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAowJQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAwwHQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T13:45:04.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "VagaController.cs",
               "DocumentMoniker": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Controller\\VagaController.cs",
               "RelativeDocumentMoniker": "Parking Lot Management\\Controller\\VagaController.cs",
               "ToolTip": "C:\\Users\\ct67ca\\Desktop\\Parking Lot Management\\Parking Lot Management\\Controller\\VagaController.cs",
               "RelativeToolTip": "Parking Lot Management\\Controller\\VagaController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAlwC8AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAlwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T13:28:03.556Z",
               "EditorCaption": ""

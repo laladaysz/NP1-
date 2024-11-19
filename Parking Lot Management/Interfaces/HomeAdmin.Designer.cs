@@ -181,6 +181,7 @@
             button7.TabIndex = 17;
             button7.Text = "Entrar";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // label11
             // 

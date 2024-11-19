@@ -58,5 +58,11 @@ namespace Parking_Lot_Management.Controller
 
             vagaDAO.AtualizarVaga(vaga);
         }
+
+        public List<Vaga> GetVagasDisponiveis()
+        {
+            return vagaDAO.GetVagasDisponiveis();
+
+        }
     }
 }
