@@ -30,5 +30,10 @@ namespace Parking_Lot_Management.Controller
             entradasSaidasDAO.CadastrarEntrada(entrada);
 
         }
+
+        public List<EntradasSaidas> GetEntradasSaidas()
+        {
+            return entradasSaidasDAO.GetAllEntradasSaidas();
+        }
     }
 }

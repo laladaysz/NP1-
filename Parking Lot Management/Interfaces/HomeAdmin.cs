@@ -84,5 +84,12 @@ namespace Parking_Lot_Management.View
             CadastroEntrada cadastroentrada = new CadastroEntrada();
             cadastroentrada.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            GenEntradasSaidas genEntradas = new GenEntradasSaidas();
+            genEntradas.Show();
+        }
     }
 }

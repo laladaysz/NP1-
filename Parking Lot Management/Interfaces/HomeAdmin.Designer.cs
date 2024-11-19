@@ -160,6 +160,7 @@
             button5.TabIndex = 13;
             button5.Text = "Entrar";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 

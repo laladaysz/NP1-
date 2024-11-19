@@ -15,5 +15,10 @@ namespace Parking_Lot_Management.Model
         public DateTime Entrada {  get; set; }
         public DateTime? Saida { get; set; }
         public bool Pago { get; set; }
+
+
+        public Motorista Motorista { get; set; }
+        public Veiculo Veiculo { get; set; }
+        public Vaga Vaga { get; set; }
     }
 }
