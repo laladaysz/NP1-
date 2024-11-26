@@ -57,6 +57,7 @@
             corTxt.Name = "corTxt";
             corTxt.Size = new Size(230, 31);
             corTxt.TabIndex = 14;
+            corTxt.TextChanged += this.corTxt_TextChanged;
             // 
             // modeloTxt
             // 
@@ -64,6 +65,7 @@
             modeloTxt.Name = "modeloTxt";
             modeloTxt.Size = new Size(230, 31);
             modeloTxt.TabIndex = 13;
+            modeloTxt.TextChanged += this.modeloTxt_TextChanged;
             // 
             // placaTxt
             // 
@@ -71,6 +73,7 @@
             placaTxt.Name = "placaTxt";
             placaTxt.Size = new Size(230, 31);
             placaTxt.TabIndex = 12;
+            placaTxt.TextChanged += this.placaTxt_TextChanged;
             // 
             // label4
             // 
@@ -80,6 +83,7 @@
             label4.Size = new Size(40, 25);
             label4.TabIndex = 11;
             label4.Text = "Cor";
+            label4.Click += this.label4_Click;
             // 
             // label3
             // 
@@ -89,6 +93,7 @@
             label3.Size = new Size(74, 25);
             label3.TabIndex = 10;
             label3.Text = "Modelo";
+            label3.Click += this.label3_Click;
             // 
             // label2
             // 
@@ -108,6 +113,7 @@
             label1.Size = new Size(218, 25);
             label1.TabIndex = 8;
             label1.Text = "Cadastre um novo veículo";
+            label1.Click += label1_Click;
             // 
             // label5
             // 
@@ -117,6 +123,7 @@
             label5.Size = new Size(89, 25);
             label5.TabIndex = 16;
             label5.Text = "Motorista";
+            label5.Click += this.label5_Click;
             // 
             // motoristaBox
             // 
@@ -126,6 +133,7 @@
             motoristaBox.Size = new Size(230, 33);
             motoristaBox.TabIndex = 17;
             motoristaBox.Text = "Selecione um motorista";
+            motoristaBox.SelectedIndexChanged += this.motoristaBox_SelectedIndexChanged;
             // 
             // button1
             // 
